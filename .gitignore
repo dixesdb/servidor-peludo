@@ -1,0 +1,9 @@
+node_modules/
+classes/
+interfaces/
+middlewares/
+models/
+routes/
+uploads/
+uploadst/
+index.ts
