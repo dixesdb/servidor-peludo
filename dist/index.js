@@ -30,7 +30,7 @@ server.app.use('/userP', usuarioP_1.default);
 server.app.use('/posts', post_1.default);
 server.app.use('/postsT', posttienda_1.default);
 // Conectar DB
-mongoose_1.default.connect(process.env.urlDB, { useNewUrlParser: true, useCreateIndex: true }, (err) => {
+mongoose_1.default.connect(process.env.urlDB, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true  }, (err) => {
     if (err)
         throw err;
     console.log('Base de datos ONLINE');
