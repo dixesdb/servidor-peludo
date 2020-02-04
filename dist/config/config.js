@@ -7,7 +7,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 ///===========================================
 let urlDB;
 if(process.env.NODE_ENV === 'dev'){
-    urlDB = 'mongodb+srv://admin:peluditos@cluster0-3o4h8.mongodb.net/PeluditosDB?retryWrites=true&w=majority';
+    urlDB = 'mongodb://localhost:27017/fotosgram';
 }else{
     urlDB = 'mongodb+srv://admin:peluditos@cluster0-3o4h8.mongodb.net/PeluditosDB?retryWrites=true&w=majority';
 }

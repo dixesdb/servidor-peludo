@@ -14,7 +14,7 @@ const usuarioP_1 = __importDefault(require("./routes/usuarioP"));
 const posttienda_1 = __importDefault(require("./routes/posttienda"));
 const server = new server_1.default();
 require('./config/config');
-server.port=process.env.PORT;
+
 
 
 // Body parser
